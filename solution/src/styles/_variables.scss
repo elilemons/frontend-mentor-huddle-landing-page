@@ -1,0 +1,38 @@
+/**
+-----------------
+Table of Contents
+-----------------
+  #Imports
+  #Colors
+  #Breakpoints
+  #Typography
+  #Flex
+**/
+
+// #Imports
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600';
+
+// #Colors
+$pink: hsl(322, 100%, 66%);
+$pale-cyan: hsl(193, 100%, 96%);
+$dark-cyan: hsl(192, 100%, 9%);
+$grayish-blue: hsl(208, 11%, 55%);
+
+// #Breakpoints
+$mobile-width: 375px;
+$desktop-width: 1140px;
+
+// #Typography
+$font-size: 18px;
+$font-family: 'Open Sans', sans-serif;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$font-family-headings: 'Poppins', sans-serif;
+$font-weight-headings: 600;
+
+// #Flex
+$one-fourth: 25%;
+$one-third: 33.333%;
+$one-half: 50%;
+$three-fourths: 75%;
