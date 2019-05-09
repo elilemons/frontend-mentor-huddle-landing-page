@@ -1,3 +1,20 @@
-#hero-image {
-  width: 100%;
+@import '../../styles/variables';
+
+.hero {
+  &__container {
+    max-width: $mobile-width;
+    background-color: $pale-cyan;
+    &--inner {
+      padding: $small-h;
+    }
+  }
+  &__image {
+    margin: map-get($map: $spacers, $key: 5) 0;
+    &--image {
+      width: 100%;
+    }
+  }
+  &__button--container {
+    margin: map-get($map: $spacers, $key: 5) auto;
+  }
 }

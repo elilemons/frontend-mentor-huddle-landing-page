@@ -1,5 +1,13 @@
+@import '../../styles/variables';
+
 .site-header {
+  background: $pale-cyan;
+
   display: flex;
-  width: 100%;
   justify-content: space-between;
+
+  width: 100%;
+  max-width: 375px;
+
+  padding: $small-h;
 }
