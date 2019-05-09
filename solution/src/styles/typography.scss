@@ -9,7 +9,25 @@ strong, .text-bold {
   font-weight: $font-weight-bold;
 }
 
+.text-center {
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6, .section-heading {
   font-family: $font-family-headings;
   font-weight: $font-weight-headings;
+}
+
+h1 {
+  font-size: 2.25em;
+  margin-top: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+.lead {
+  font-size: 1.45em;
+  text-align: center;
 }

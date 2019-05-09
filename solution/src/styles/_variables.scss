@@ -8,6 +8,7 @@ Table of Contents
   #Typography
   #Flex
   #Shadows
+  #Spacing
 **/
 
 // #Imports
@@ -20,7 +21,7 @@ $dark-cyan: hsl(192, 100%, 9%);
 $grayish-blue: hsl(208, 11%, 55%);
 
 // #Breakpoints
-$mobile-width: 750px;
+$mobile-width: 375px;
 $desktop-width: 1140px;
 
 // #Typography
@@ -28,7 +29,7 @@ $font-size: 12px;
 $font-size-desktop: 18px;
 $font-family: 'Open Sans', sans-serif;
 $font-weight-normal: 400;
-$font-weight-bold: 700;
+$font-weight-bold: 600;
 
 $font-family-headings: 'Poppins', sans-serif;
 $font-weight-headings: 600;
@@ -43,3 +44,26 @@ $three-fourths: 75%;
 
 // #Shadows
 $card-shadow: 0 19px 12px rgba(0, 0, 0, 0.03), 0 3px 12px rgba(0, 0, 0, 0.03), 0 -8px 9px rgba(0, 0, 0, .03);
+
+// #Spacing
+$small-h: 0 20px;
+$small-v: 20px 0;
+$large-h: 0 40px;
+$large-v: 40px 0;
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  2-5: ($spacer * .75),
+  3: ($spacer),
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 3.5),
+  7: ($spacer * 4),
+  8: ($spacer * 4.5),
+  9: ($spacer * 5),
+  10: ($spacer * 5.5)
+), $spacers);

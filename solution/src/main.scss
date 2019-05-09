@@ -1,7 +1,9 @@
 @import './styles/variables';
+@import './styles/utilities/utilities';
 
 @import './styles/flex';
 @import './styles/typography.scss';
+@import './styles/buttons.scss';
 @import './styles/cards.scss';
 
 * { box-sizing: border-box; }
@@ -11,17 +13,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: $dark-cyan;
   background: #333; // So I can see where the design ends
 }
 
 .content-wrapper {
-  max-width: 375px;
+  // max-width: 375px;
   background: white; // So I can see where the design starts
 }
 
 .container {
-  padding-left: 40px;
-  padding-right: 40px;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .attribution {
   font-size: 11px;
@@ -36,6 +40,6 @@ body {
   width: 100%;
 }
 
-@media screen and (min-width: 750px) {
-  .container { max-width: 750px; }
+@media screen and (min-width: $desktop-width) {
+  .container { max-width: $desktop-width; }
 }
