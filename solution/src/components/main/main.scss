@@ -1,5 +1,6 @@
+@import '../../styles/variables';
+
 .main {
-  position: relative;
-  margin: 0 40px;
+  padding: map-get($map: $spacers, $key: 10) $small 180px;
   background: white;
 }

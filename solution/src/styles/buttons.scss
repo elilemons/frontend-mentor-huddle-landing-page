@@ -3,7 +3,6 @@
 .button {
   border-radius: 50px;
   font-weight: $font-weight-bold;
-  font-size: 1.25em;
   text-align: center;
   padding: map-get($map: $spacers, $key: 2-5) map-get($map: $spacers, $key: 8);
   &__primary {

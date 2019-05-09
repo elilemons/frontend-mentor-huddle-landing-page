@@ -1,7 +1,8 @@
 .card {
-  padding: 3em;
+  padding: 4em;
   border-radius: 20px;
   box-shadow: $card-shadow;
+  margin-top: map-get($map: $spacers, $key: 5);
   margin-bottom: 2.75em;
 
   &__image {

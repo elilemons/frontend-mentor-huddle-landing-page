@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+.section-floater {
+  position: absolute;
+  background: white;
+  top: -115px;
+  left: 20px;
+  right: 20px;
+  max-width: $mobile-width;
+  padding: map-get($map: $spacers, $key: 5);
+
+  &__title {
+    white-space: nowrap;
+    text-align: center;
+    font-size: 1.35em;
+    color: $dark-cyan;
+  }
+}

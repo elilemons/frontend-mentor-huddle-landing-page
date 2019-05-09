@@ -1,6 +1,8 @@
 @import '../../styles/variables';
 
 .footer {
+  padding-top: 180px;
+  position: relative; // for the section-floater
   background: $dark-cyan;
   color: white;
 }
