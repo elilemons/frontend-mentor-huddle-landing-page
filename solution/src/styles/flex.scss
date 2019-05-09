@@ -1,20 +1,28 @@
-.one-fourth {
-  width: $one-fourth;
-}
-
-.one-third {
-  width: $one-third;
-}
-
-.one-half {
-  width: one-half;
-}
-
-.three-fourhts {
-  width: $three-fourths;
-}
-
 .flex-container, .cell {
   display: flex;
+  flex-direction: column;
   width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .flex-container {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .one-fourth {
+    width: $one-fourth;
+  }
+
+  .one-third {
+    width: $one-third;
+  }
+
+  .one-half {
+    width: $one-half;
+  }
+
+  .three-fourhts {
+    width: $three-fourths;
+  }
 }

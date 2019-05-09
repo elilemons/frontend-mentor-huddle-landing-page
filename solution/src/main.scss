@@ -5,6 +5,14 @@
 
 * { box-sizing: border-box; }
 
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container { max-width: 375px; }
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -12,4 +20,12 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .container { max-width: 750px; }
 }
