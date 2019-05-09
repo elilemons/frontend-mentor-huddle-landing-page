@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "parcel-bundler": "^1.12.3",
-    "reset-css": "^4.0.1"
+    "reset-css": "^4.0.1",
+    "webfontloader": "^1.6.28"
   },
   "devDependencies": {
     "posthtml": "^0.11.4",

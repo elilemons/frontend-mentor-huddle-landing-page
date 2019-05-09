@@ -2,6 +2,7 @@
 
 @import './styles/flex';
 @import './styles/typography.scss';
+@import './styles/cards.scss';
 
 * { box-sizing: border-box; }
 
@@ -10,9 +11,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #333; // So I can see where the design ends
 }
 
-.container { max-width: 375px; }
+.content-wrapper {
+  max-width: 375px;
+  background: white; // So I can see where the design starts
+}
+
+.container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;

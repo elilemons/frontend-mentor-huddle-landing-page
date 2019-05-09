@@ -7,10 +7,11 @@ Table of Contents
   #Breakpoints
   #Typography
   #Flex
+  #Shadows
 **/
 
 // #Imports
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600';
+// @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600';
 
 // #Colors
 $pink: hsl(322, 100%, 66%);
@@ -19,11 +20,12 @@ $dark-cyan: hsl(192, 100%, 9%);
 $grayish-blue: hsl(208, 11%, 55%);
 
 // #Breakpoints
-$mobile-width: 375px;
+$mobile-width: 750px;
 $desktop-width: 1140px;
 
 // #Typography
-$font-size: 18px;
+$font-size: 12px;
+$font-size-desktop: 18px;
 $font-family: 'Open Sans', sans-serif;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
@@ -31,8 +33,13 @@ $font-weight-bold: 700;
 $font-family-headings: 'Poppins', sans-serif;
 $font-weight-headings: 600;
 
+$line-height: 1.75;
+
 // #Flex
 $one-fourth: 25%;
 $one-third: 33.333%;
 $one-half: 50%;
 $three-fourths: 75%;
+
+// #Shadows
+$card-shadow: 0 19px 12px rgba(0, 0, 0, 0.03), 0 3px 12px rgba(0, 0, 0, 0.03), 0 -8px 9px rgba(0, 0, 0, .03);
