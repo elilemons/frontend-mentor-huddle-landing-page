@@ -15,7 +15,6 @@
   },
   "devDependencies": {
     "posthtml": "^0.11.4",
-    "posthtml-expressions": "^1.1.0",
     "posthtml-include": "^1.2.0",
     "sass": "^1.20.1"
   }

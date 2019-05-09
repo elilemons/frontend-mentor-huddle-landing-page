@@ -1,5 +1,8 @@
 /dist
 /.cache
 /node_modules
+solution/node_modules
+solution/dist
+solution/.cache
 
 .DS_Store
