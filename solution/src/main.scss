@@ -14,12 +14,13 @@ body {
   flex-direction: column;
   align-items: center;
   color: $dark-cyan;
-  background: #333; // So I can see where the design ends
+  // background: #333; // So I can see where the design ends
 }
 
 .content-wrapper {
   // max-width: 375px;
   background: white; // So I can see where the design starts
+  width: 100vw;
 }
 
 .container {

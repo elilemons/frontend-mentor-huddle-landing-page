@@ -1,11 +1,19 @@
 @import '../../styles/variables';
 
 .footer {
-  padding-top: 140px;
-  position: relative; // for the section-floater
-  background: $dark-cyan;
-  color: white;
   font-size: 1.15rem;
+  &__container {
+
+
+    background: $dark-cyan;
+    align-items: center;
+    color: white;
+  }
+  &__inner-container {
+    padding-top: 140px;
+    color: white;
+    position: relative; // for the section-floater
+  }
 
   &__logo {
     img {

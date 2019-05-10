@@ -5,11 +5,14 @@
 }
 .hero {
   &__container {
-    max-width: $mobile-width;
+    // max-width: $mobile-width;
+    display: flex;
+    justify-content: center;
     background-color: $pale-cyan;
     padding-bottom: 2rem;
     &--inner {
       padding: $small-h;
+      max-width: $mobile-width;
     }
   }
   &__image {
