@@ -1,6 +1,11 @@
 @import '../../styles/variables';
 
 .main {
-  padding: map-get($map: $spacers, $key: 10) $small 180px;
+  padding: map-get($map: $spacers, $key: 4) $small-spacing 180px;
   background: white;
+}
+
+
+.card-body.card-body--your-users {
+  padding: 0 1.3rem;
 }

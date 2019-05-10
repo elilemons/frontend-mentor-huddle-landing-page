@@ -4,6 +4,10 @@
   width: 100%;
 }
 
+.cell.row {
+  flex-direction: row;
+}
+
 @media screen and (min-width: $desktop-width) {
   .flex-container {
     flex-direction: row;
@@ -22,7 +26,7 @@
     width: $one-half;
   }
 
-  .three-fourhts {
-    width: $three-fourths;
+  .three-fourth {
+    width: $three-fourth;
   }
 }

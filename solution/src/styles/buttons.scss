@@ -4,10 +4,23 @@
   border-radius: 50px;
   font-weight: $font-weight-bold;
   text-align: center;
-  padding: map-get($map: $spacers, $key: 2-5) map-get($map: $spacers, $key: 8);
+  padding: 1rem;
+
   &__primary {
     background: $pink;
     box-shadow: 2px 2px 8px 0px rgba($pink, .3);
     color: white;
+  }
+  &__white {
+    background: white;
+    color: $dark-cyan;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  &--sm {
+    font-size: .75rem;
+    padding: .25rem 1.5rem;
+  }
+  &--xl {
+    padding: map-get($map: $spacers, $key: 2-5) map-get($map: $spacers, $key: 7);
   }
 }

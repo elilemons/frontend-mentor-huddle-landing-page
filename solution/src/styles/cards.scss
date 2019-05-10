@@ -1,11 +1,12 @@
 .card {
-  padding: 4em;
+  padding: 2rem;
   border-radius: 20px;
   box-shadow: $card-shadow;
   margin-top: map-get($map: $spacers, $key: 5);
   margin-bottom: 2.75em;
 
   &__image {
+    padding: 4rem 1.5rem;
     width: 100%;
     &img {
       width: 100%;
@@ -17,11 +18,12 @@
   }
 
   &__title {
-    font-size: 1.35em;
-    margin: 2.5em 0 .5em 0;
+    font-size: 1.35rem;
+    margin: 1rem 0 0.5rem 0;
   }
 
   &__body {
     color: $grayish-blue;
+    padding: 0 .75rem;
   }
 }

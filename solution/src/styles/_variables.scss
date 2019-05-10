@@ -25,7 +25,7 @@ $mobile-width: 375px;
 $desktop-width: 1140px;
 
 // #Typography
-$font-size: 12px;
+$font-size: 14px;
 $font-size-desktop: 18px;
 $font-family: 'Open Sans', sans-serif;
 $font-weight-normal: 400;
@@ -34,24 +34,25 @@ $font-weight-bold: 600;
 $font-family-headings: 'Poppins', sans-serif;
 $font-weight-headings: 600;
 
-$line-height: 1.75;
+$line-height: 1.5;
 
 // #Flex
 $one-fourth: 25%;
 $one-third: 33.333%;
 $one-half: 50%;
-$three-fourths: 75%;
+$three-fourth: 75%;
 
 // #Shadows
-$card-shadow: 0 19px 12px rgba(0, 0, 0, 0.03), 0 3px 12px rgba(0, 0, 0, 0.03), 0 -8px 9px rgba(0, 0, 0, .03);
+$shadow-color:  rgba(0, 0, 0, 0.03);
+$card-shadow: 0 19px 12px $shadow-color, 0 3px 12px rgba(0, 0, 0, 0.03), 0 -8px 9px rgba(0, 0, 0, .03);
 
 // #Spacing
-$small: 20px;
-$large: 40px;
-$small-h: 0 20px;
-$small-v: 20px 0;
-$large-h: 0 40px;
-$large-v: 40px 0;
+$small-spacing: 20px;
+$large-spacing: 2 * $small-spacing;
+$small-h: 0 $small-spacing;
+$small-v: $small-spacing 0;
+$large-h: 0 large-spacing;
+$large-v: large-spacing 0;
 
 $spacer: 1rem !default;
 $spacers: () !default;
@@ -62,6 +63,7 @@ $spacers: map-merge((
   2-5: ($spacer * .75),
   3: ($spacer),
   4: ($spacer * 1.5),
+  4-5: ($spacer * 2.5),
   5: ($spacer * 3),
   6: ($spacer * 3.5),
   7: ($spacer * 4),

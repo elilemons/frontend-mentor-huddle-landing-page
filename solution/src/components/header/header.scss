@@ -5,9 +5,16 @@
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   width: 100%;
   max-width: 375px;
 
-  padding: $small-h;
+  padding: $small-spacing $small-spacing;
+
+  &__logo {
+    img {
+      width: 100px;
+    }
+  }
 }

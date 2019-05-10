@@ -1,20 +1,23 @@
 @import '../../styles/variables';
 
+#hero-bg-image {
+  background-position-y: -60px;
+}
 .hero {
   &__container {
     max-width: $mobile-width;
     background-color: $pale-cyan;
+    padding-bottom: 2rem;
     &--inner {
       padding: $small-h;
     }
   }
   &__image {
-    margin: map-get($map: $spacers, $key: 5) 0;
     &--image {
       width: 100%;
     }
   }
   &__button--container {
-    margin: map-get($map: $spacers, $key: 5) auto;
+    margin: map-get($map: $spacers, $key: 3) auto map-get($map: $spacers, $key: 5) ;
   }
 }

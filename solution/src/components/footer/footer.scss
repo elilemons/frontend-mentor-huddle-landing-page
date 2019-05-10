@@ -1,8 +1,57 @@
 @import '../../styles/variables';
 
 .footer {
-  padding-top: 180px;
+  padding-top: 140px;
   position: relative; // for the section-floater
   background: $dark-cyan;
   color: white;
+  font-size: 1.15rem;
+
+  &__logo {
+    img {
+      width: 160px;
+    }
+  }
+
+  &__box {
+    display: flex;
+    width: 100%;
+    padding: 1rem 0;
+
+    &--icon {
+      flex: 0 0 11%;
+      svg {
+        fill: white;
+        width: 28px;
+      }
+    }
+
+    &--center {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__social-icon {
+    svg {
+      fill: white;
+      width: 32px;
+    }
+    margin: 0 1rem;
+  }
+  &__nav {
+    padding: 2rem 0;
+    &--item {
+      padding: .75rem 0;
+      font-size: 1.25rem;
+    }
+  }
+
+  &__copyright, &__attribution {
+    font-size: .85rem;
+    text-align: center;
+    a {
+      color: $pale-cyan;
+    }
+  }
 }

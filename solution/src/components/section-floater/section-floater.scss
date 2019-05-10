@@ -2,16 +2,22 @@
 .section-floater {
   position: absolute;
   background: white;
-  top: -115px;
-  left: 20px;
-  right: 20px;
+  top: -150px;
+  left: 15px;
+  right: 15px;
   max-width: $mobile-width;
+  height: 175px;
   padding: map-get($map: $spacers, $key: 5);
 
   &__title {
     white-space: nowrap;
     text-align: center;
-    font-size: 1.35em;
+    font-size: 1.15rem;
     color: $dark-cyan;
+  }
+
+  &__button-container {
+    font-size: .75rem;
+    width: 75%;
   }
 }
